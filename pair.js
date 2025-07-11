@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*Hi im afnan 🤗🤗 im created bot but there are now game its in development stage*`;
+            const sid = `*Hi im afnan 🤗🤗 im created bot but there are no game. its in development stage*`;
             const mg = `🛑 *pubg noob dheos 😊😊😊* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
